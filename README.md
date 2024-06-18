@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Gestão de insumos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Menu
+![image](https://github.com/lettcsouza/insumos-frontend/assets/101602299/50dee4c9-d874-470c-ab20-f61e224f1acd)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<hr>
 
-## Expanding the ESLint configuration
+## Lista de insumos
+![image](https://github.com/lettcsouza/insumos-frontend/assets/101602299/4d016043-084f-45b6-a7c2-0dd6323d344e)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<hr>
 
-- Configure the top-level `parserOptions` property like this:
+## Cadastro de insumos
+![image](https://github.com/lettcsouza/insumos-frontend/assets/101602299/8480051c-09c9-435a-b68c-8a051b8e73d4)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Tecnologias Utilizadas
+- Vite
+- React
+- TypeScript
+- Axios
+- Shadcn
+- Tailwind CSS
+
+## Funcionalidades Principais
+1. **Criação de Insumos:** A aplicação permite Criar insumos, para poder gerenciá-los e ter um controle geral de todos os insumo em outras áreas do sistema.
+2. **Listagem de Insumos:** A aplicação permite visualizar uma lista de insumos cadastrados, exibindo informações como nome, descrição, custo unitário, data de validade, quantidade em estoque, número do lote, fabricante e data de fabricação.
+3. **Exclusão de Insumos:** É possível deletar um insumo da lista utilizando o ícone de lixeira ao lado de cada entrada. Ao clicar no ícone, o insumo correspondente será removido da lista após confirmação.
+4. **Busca de Insumos:** Implementa um recurso de busca para encontrar um insumo específico na lista. Basta inserir um termo de busca no campo de busca e a lista será filtrada automaticamente para exibir apenas os insumos que correspondem ao termo inserido.
+
+## Deploy
+A aplicação foi implantada utilizando Netlify, uma plataforma de hospedagem que oferece integração contínua e implantação (CI/CD) simplificadas para projetos da web.
+
+## Observações
+Devido à impossibilidade de realizar o deploy do backend, a URL de apontamento para o backend está configurada para `localhost:3000`. Portanto, para testar as funcionalidades que dependem do backend, é necessário executar o backend localmente na máquina.
+
+
+
+
