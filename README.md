@@ -33,9 +33,6 @@
 ## Deploy
 A aplicação foi implantada utilizando Netlify, uma plataforma de hospedagem que oferece integração contínua e implantação (CI/CD) simplificadas para projetos da web.
 
-## Observações
-Devido à impossibilidade de realizar o deploy do backend, a URL de apontamento para o backend está configurada para `localhost:3000`. Portanto, para testar as funcionalidades que dependem do backend, é necessário executar o backend localmente na máquina.
-
 
 
 

@@ -53,7 +53,7 @@ const ProductForm = () => {
 		};
 
 		await axios
-			.post("http://localhost:3000/insumos", payload)
+			.post("https://insumos-api-production.up.railway.app/insumos", payload)
 			.then(() => {
 				toast.success("Insumo criado com sucesso", {
 					position: "top-right",

@@ -31,7 +31,7 @@ const InsumosPage = () => {
 
 	useEffect(() => {
 		axios
-			.get("http://localhost:3000/insumos")
+			.get("https://insumos-api-production.up.railway.app/insumos")
 			.then((response) => {
 				setInsumos(response.data);
 				setLoading(false);
@@ -64,7 +64,7 @@ const InsumosPage = () => {
 
 	const handleDelete = (id: number) => {
 		axios
-			.delete(`http://localhost:3000/insumos/${id}`)
+			.delete(`https://insumos-api-production.up.railway.app/insumos/${id}`)
 			.then(() => {
 				setInsumos((prevInsumos) =>
 					prevInsumos.filter((insumo) => insumo.ID_INSUMO !== id)
