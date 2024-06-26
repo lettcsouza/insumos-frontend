@@ -63,7 +63,7 @@ const Dashboard = () => {
             </Link>
             <div className="w-80 sm:w-96 flex flex-col justify-center items-center mx-auto">
               <div className="w-48 mb-4 sm:mb-10">
-                <p className="text-center">Estoque total</p>
+                <p className="text-center font-semibold">Estoque Total</p>
                 <div className="bg-[#595858] p-5 py-4 rounded-2xl shadow-xl font-bold text-white text-xl cursor-default flex justify-center">
                   {totalInputsLength}
                 </div>
