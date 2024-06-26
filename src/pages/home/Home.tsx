@@ -12,6 +12,11 @@ const Home = () => {
                     <i className="bg-[#EEEBEB] p-3 rounded-full"><FilePlusIcon className="w-9 h-9 text-black"/></i>cadastrar insumos
                 </Button>
                 </Link>
+                <Link to={'/dashboard'}>
+                <Button className="h-48 max-w-40 flex flex-col items-center justify-center text-xl text-wrap">
+                    <i className="bg-[#EEEBEB] p-3 rounded-full"><TableIcon className="w-9 h-9 text-black"/></i>dashboards
+                </Button>
+                </Link>
                 
                 <Link to={'/input-list'}>
                 <Button className="h-48 max-w-40 flex flex-col items-center justify-center text-xl text-wrap">

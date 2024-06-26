@@ -22,6 +22,7 @@
     "react-toastify": "^10.0.5",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
+    "tw-elements-react": "^1.0.0-alpha-end",
     "yup": "^1.4.0"
   },
   "devDependencies": {

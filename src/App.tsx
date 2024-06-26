@@ -3,6 +3,7 @@ import Home from "./pages/home/Home";
 import Navbar from "./components/Navbar";
 import CreateInput from "./pages/create-input/CreateInput";
 import InsumosPage from "./pages/input-list/InputList";
+import Dashboard from "./pages/dashboard/dashboard";
 
 function Layout({ children }: any) {
 	return (
@@ -39,6 +40,14 @@ function App() {
 						element={
 							<Layout>
 								<InsumosPage />
+							</Layout>
+						}
+					/>
+					<Route
+						path="/dashboard"
+						element={
+							<Layout>
+								<Dashboard />
 							</Layout>
 						}
 					/>
